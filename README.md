@@ -1,4 +1,4 @@
-# UiPath-Cheat-Sheet
+# UiPath Cheat Sheet
 
 ## Convert DataTable to Array Of String
 ```
