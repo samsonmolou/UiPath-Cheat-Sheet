@@ -1,2 +1,6 @@
 # UiPath-Cheat-Sheet
-Snippet to accomplish simple task in uipath
+
+## Convert DataTable to Array Of String
+```
+yourDatatable.AsEnumerable().Select(Function(row) row.Field(Of String)("Text")).ToArray()
+```
